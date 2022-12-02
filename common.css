@@ -380,6 +380,48 @@ header .home-text .btn2:hover {
     left: 0;
 }
 
+.collage-card .collage-info{
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.3s ease-in-out;
+}
+
+.collage-card:hover .collage-info{
+    opacity: 1 !important;
+    transform: translateY(0px);
+}
+
+.collage-card .collage-info > h1{
+    font-family: 'Poppins',sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.collage-card .collage-info > p{
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.875rem;
+    letter-spacing: 0.5px;
+}
+
+.collage-card .collage-info .btn{
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border: #fff 2px solid;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.collage-card .collage-info .btn:hover{
+    background: #fff;
+    color: #1f1f25;
+}
+
 /* = = = = = = = = collage = = = = = = = */
 
 /* = = = = = = = = contact = = = = = = = */
