@@ -1,0 +1,425 @@
+/* = = = = = = = = google-font  = = = = = =  */
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Kolker+Brush&family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+/* = = = = = = = = google-font  = = = = = =  */
+
+/* = = = = = = = = universal-style = = = = = = =  */
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* = = = = = = = = universal-style-end = = = = = = =  */
+
+/* = = = = =  header  = = = = =   */
+
+.bg-img {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+header .logo {
+    width: 200px;
+    height: auto;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 0px 10px;
+    margin-top: 30px;
+}
+
+header li .nav-link {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+header li .nav-link:hover {
+    color: #171738;
+}
+
+header .row {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+header .home-text {
+    width: 50%;
+    height: auto;
+}
+
+header .home-text h1 {
+    color: #fff;
+    font-size: 2.9rem;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+header .home-text span {
+    color: #171738;
+}
+
+header .home-text p {
+    color: #fff;
+    padding: 15px 0px;
+}
+
+header .home-text .btn {
+    border-radius: 50px;
+    background-color: #171738;
+    border: none;
+    color: #fff;
+    padding: 8px 25px;
+    margin-top: 2px;
+    margin-right: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+header .home-text .btn:hover {
+    background-color: #0a0a1d;
+    box-shadow: 0px 8px 25px #17173862;
+}
+
+header .home-text .btn2 {
+    border-radius: 50px;
+    border: 2px solid #171738;
+    color: #fff;
+    background: none;
+    padding: 6px 25px;
+    margin-top: 2px;
+    margin-right: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+header .home-text .btn2:hover {
+    box-shadow: none;
+    color: #fff;
+}
+
+
+/* = = = = =  header-end  = = = = =   */
+
+
+/* = = = = = = = = training = = = = = = = */
+
+.training {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+.clip_path {
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(100% 0, 0% 100%, 66% 90%);
+    background-color: #f6f7f7;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.heading {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.heading h1 {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    color: #f6f7f7;
+    position: relative;
+    z-index: -1;
+}
+
+.heading h1 span {
+    color: #171738;
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+}
+
+.card-content {
+    width: 500px;
+    height: 300px;
+    background-color: #171738;
+    position: relative;
+    box-shadow: 0px 0px 10px #17173867;
+}
+
+.card-wrapper {
+    width: 200px;
+    height: 350px;
+    position: absolute;
+    right: -1%;
+    top: -8%;
+    background-color: #0a0a1d;
+    box-shadow: 0px 0px 10px #17173867;
+    padding-right: 20px;
+}
+
+.card-img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-wrapper h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    padding: 50px 0px 0px 20px;
+}
+
+.card-wrapper p {
+    color: #fff;
+    font-size: 0.8786rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 0px 40px 20px;
+}
+
+.card-wrapper a {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    padding: 5px 15px;
+    margin: 10px 0px 0px 20px;
+    transition: all 0.3s ease;
+}
+
+.card-wrapper a:hover {
+    color: #171738;
+    background: #fff;
+}
+
+/* = = = = = = = = training-end = = = = = = = */
+
+/* = = = = = = = = about = = = = = = = */
+.about {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.about_clip_path {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-color: #f6f7f7;
+    clip-path: polygon(100% 100%, 0% 0%, 55% 98%);
+}
+
+.about .icon-box {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    /* background-color: #171738; */
+}
+
+.icon-box .icon img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.icon-box .icon-text p {
+    text-transform: uppercase;
+    color: #171738;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8786rem;
+    font-weight: 400;
+}
+
+.icon-box .icon-text h5 {
+    color: #171738;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* = = = = = = = = about-end = = = = = = = */
+
+/* = = = = = = = = collage-end = = = = = = = */
+.collage {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.collage_clip_path {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #f6f7f7;
+    z-index: -1;
+    clip-path: polygon(100% 0, 0% 100%, 66% 90%);
+}
+
+.collage .collage-card {
+    width: 100%;
+    height: 15px;
+    background-color: #171738;
+}
+
+.collage .row .wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 0.9365rem 0rem;
+    /* background: #f9004d; */
+}
+
+.collage .row .wrapper .collage-card {
+    width: 100%;
+    height: 25.125rem;
+    padding: 2rem 1rem;
+    /* background: rgb(249, 0, 77); */
+    display: flex;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    align-items: flex-end;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.collage .row .wrapper .collage-card:hover {
+    transform: translateY(-20px);
+}
+
+.collage .row .wrapper .collage-card::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 2;
+    background: linear-gradient(to bottom, rgba(249, 0, 79, 0), rgba(23, 23, 56, 1));
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+
+}
+
+.collage-card:hover::before {
+    opacity: 1 !important;
+    z-index: 2;
+}
+
+.collage-card img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+/* = = = = = = = = collage = = = = = = = */
+
+/* = = = = = = = = contact = = = = = = = */
+
+.contact {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+.contact_clip_path {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #f6f7f7;
+    clip-path: polygon(100% 100%, 0% 0%, 55% 98%);
+    z-index: -1;
+}
+
+.contact .contact-text h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #171738;
+}
+
+.contact .contact-text p {
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+    color: #c2c2c2;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.contact .contact-text .btn {
+    background-color: #171738;
+    border: none;
+}
+
+/* = = = = = = = = contact = = = = = = = */
